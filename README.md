@@ -11,8 +11,6 @@ A simple JavaScript project that calculates the ingredients needed to make a spe
 
 ## Project Setup
 ### Files Needed
-
-- `index.html` - Loads the script in a browser.
 - `chai.js` - Contains the JavaScript logic. 
 
 ## How to Use
@@ -26,7 +24,13 @@ git clone https://github.com/Wambui-Kibathi/Code-Challenge-1.git
 **Navigate to the chaiCalculator Folder**
 In Terminal:
 (cd Code-Challenge-1/chaiCalculator)
--Open it on vs code
+-Initialize npm to create a package.json file:
+npm init -y
+-Install prompt-sync as a dependency:
+npm install prompt-sync
+-Once installed,you can use it in your JavaScript
+-Still within the folder, open it via vs code by typing:
+code .
 
 ## What Happens within the Code:
 1. Prompts the user to enter the number of chai cups they want to make (e.g., using prompt()). Remember to convert the input to a number.
@@ -72,7 +76,13 @@ git clone https://github.com/Wambui-Kibathi/Code-Challenge-1.git
 **Navigate to the chaiCalculator Folder**
 In Terminal:
 (cd Code-Challenge-1/chaiCalculator)
--Open it on vs code
+-Initialize npm(If not already install, skip process if you have installed it)to create a package.json file:
+npm init -y
+-Install prompt-sync as a dependency:
+npm install prompt-sync
+-Once installed,you can use it in your JavaScript
+-Still within the folder, open it via vs code by typing:
+code .
 
 ## What Happens within the Code:
 1. Prompts the user to enter the distance of their trip in kilometers. Convert this input to a number.
@@ -117,7 +127,13 @@ git clone https://github.com/Wambui-Kibathi/Code-Challenge-1.git
 **Navigate to the chaiCalculator Folder**
 In Terminal:
 (cd Code-Challenge-1/chaiCalculator)
--Open it on vs code
+-Initialize npm(If not already install, skip process if you have installed it)to create a package.json file:
+npm init -y
+-Install prompt-sync as a dependency:
+npm install prompt-sync
+-Once installed,you can use it in your JavaScript
+-Still within the folder, open it via vs code by typing:
+code .
 
 ## What Happens within the Code:
 1. Prompts the user to enter the amount of money they wish to send. Convert this input to a number.
