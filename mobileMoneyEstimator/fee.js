@@ -1,6 +1,16 @@
 function estimateTransactionFee(amountToSend) {
     const rawFee = amountToSend * 0.015;
-    const fee = Math.max(10, Math.min(rawFee, 70));
+
+    let fee;
+
+    if (rawFee < 10) {
+        fee = 10;
+    } else if (rawFee > 70) {
+        fee = 70;
+    } else {
+        fee = rawFee;
+    }
+    
     const total = amountToSend + fee;
 
     console.log(`Sending KES ${amountToSend}:`);
