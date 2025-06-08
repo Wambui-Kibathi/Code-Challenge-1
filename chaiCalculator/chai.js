@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 function calculateChaiIngredients(numberOfCups) {
     const water = numberOfCups * 200;
     const milk = numberOfCups * 50;
