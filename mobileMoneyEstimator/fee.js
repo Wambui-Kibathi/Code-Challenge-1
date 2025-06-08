@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 function estimateTransactionFee(amountToSend) {
     const rawFee = amountToSend * 0.015;
 
